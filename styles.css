@@ -1,0 +1,104 @@
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: grid;
+}
+
+header {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: auto;
+}
+
+nav {
+    background-color: #0074d9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+main a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+main a:hover{
+    opacity: 0.8;
+}
+
+ul button {
+    margin-left: 2px;
+    color: white;
+    border: 0;
+    background-color: #ff4136;
+}
+
+ul button:hover{
+    opacity: 0.8;
+}
